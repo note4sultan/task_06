@@ -1,7 +1,7 @@
 from django import forms
 from .models import Restaurant
 
-class ResturantForm(forms.ModelForm):
+class RestaurantForm(forms.ModelForm):
 	class Meta:
 		model = Restaurant
-		fields='__all__'
+		fields ='__all__'
